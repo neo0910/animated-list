@@ -1,0 +1,31 @@
+.wrapper {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  height: 100px;
+  justify-content: center;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  background-color: rgba(112, 76, 182, 0.1);
+  border-radius: 2px;
+  border: 2px solid transparent;
+  color: rgb(112, 76, 182);
+  cursor: pointer;
+  font-size: 2rem;
+  height: 3rem;
+  outline: none;
+  padding: 0 1rem;
+  transition: all 0.15s;
+}
+
+.button:hover,
+.button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}

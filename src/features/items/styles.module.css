@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  overflow: auto;
+  margin: 0 2rem;
+}
